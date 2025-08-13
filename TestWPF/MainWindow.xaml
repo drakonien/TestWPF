@@ -25,7 +25,6 @@
                         <TextBlock Text="{Binding Title}"
                                    Width="200" />
                         <Button Content="Remove"
-                                Command="{Binding DataContext.RemoveTaskCommand, RelativeSource={RelativeSource AncestorType=Window}}"
                                 CommandParameter="{Binding}" />
                     </StackPanel>
                 </DataTemplate>
